@@ -1,0 +1,115 @@
+
+
+body{
+    background-color:    hsl(225, 100%, 94%) ;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main{
+
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.content{
+    margin : 0px 40px 0px 40px;
+    background-color: white;
+    padding-bottom: 20px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+h1, .tagline p{
+    text-align: center;
+    font-weight: 700;
+}
+
+.tagline p{
+    color:  hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-image img{
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}   
+
+.price-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:  hsl(225, 100%, 98%);
+    width: 100%;
+    height: calc(100vh - 570px);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.price-box p {
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+.sub-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 1px;
+    margin-left: -24px;
+ 
+
+ }
+ .price-box .container img{
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+h4{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.link {
+    margin-left: 20px;
+    text-align: center; 
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 14px;
+}
+ a:hover{
+    color:hsl(224, 23%, 55%);
+ }
+
+input[type = "submit"]{
+background-color:hsl(245, 75%, 52%);
+width: 100%;
+border-radius: 10px;
+height: 45px;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+input[type = "submit"]:hover{
+
+background-color:hsl(224, 23%, 55%);
+
+}
+.cancel{
+ text-align: center;   
+ color: hsl(224, 23%, 55%);
+ font-weight: bold;
+ font-size: 14px;
+ padding-top: 10px;
+}
+.cancel:hover{
+    color: black;
+    cursor: pointer;
+}
