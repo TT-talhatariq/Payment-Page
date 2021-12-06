@@ -2,5 +2,5 @@
 - Watch it live: [Link](http://talhatariq.me/Payment-Page/)
 
 ### Pic
-![GitHub Pages](images\1.png)
+![GitHub Pages](images/1.png)
 # Payment-Page
